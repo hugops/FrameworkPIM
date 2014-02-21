@@ -10,8 +10,5 @@ package br.ufu.facom.frameworkpim.control;
  */
 public abstract class AbstractFactory {
     
-    void hello(){
-        
-    }
     
 }
