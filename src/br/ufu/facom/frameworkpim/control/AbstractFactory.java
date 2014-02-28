@@ -8,7 +8,10 @@ package br.ufu.facom.frameworkpim.control;
  *
  * @author Silas
  */
-public abstract class AbstractFactory {
-    
-    
+public interface AbstractFactory {
+
+    public EventoControl createEventoControl();
+
+    public StickyNotesControl createCtickyNotesControl();
+
 }
